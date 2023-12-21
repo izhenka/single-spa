@@ -1,0 +1,11 @@
+{
+    "window.autoDetectColorScheme": false,
+    "workbench.colorCustomizations": {
+        // Top
+        "titleBar.activeBackground": "#ff8ad4",
+        "titleBar.inactiveBackground": "#fab2df",
+        // Top text
+        "titleBar.activeForeground": "#060505",
+        "titleBar.inactiveForeground": "#454444"
+    }
+}
