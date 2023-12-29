@@ -44,7 +44,7 @@ flowchart BT
 2. It's possible to use events emitting and listening to communicate between apps. For example as in this project: 
    * `cat-shower` emits an event when a breed is being added to favourites.
    * `favourites-svelte` listens to the event and adds the breed to the list of favourites.
-3. `create-single-spa` is a CLI tool to bootstrap a single-spa application. It doesn't seem to be stable yet.
+3. `create-single-spa` is a CLI tool to bootstrap a single-spa application. It doesn't seem to be properly supported yet.
    * Vue application won't run in vue v.3. Fixed that, but got another problem when importing utils from storage project.
    * Same problem with Vue v.2 with utils. 
    * React versions are old.
@@ -57,6 +57,7 @@ flowchart BT
 This is a bad pratice I guess, but I wanted to make the same functionality as in Dog Chooser with module federation.
 5. Security conserns?
 6. Styling is not consistent in this project because I didn't want to spend too much time on it. But I'm sure it's possible to create a better structure.
+7. One should be more expert on webpack to make everything properly. The create-single-spa tool is not supported enough yet.
 
 
 
