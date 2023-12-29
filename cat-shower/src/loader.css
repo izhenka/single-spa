@@ -3,7 +3,11 @@
 }
 .overlay {
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.137);
+  background-color: rgb(0 0 0 / 62%);
+  width: 100%;
+  height: calc(40vmin + 5px);
+  top: 0;
+  border-radius: 10px;
 }
 
 .loader {
