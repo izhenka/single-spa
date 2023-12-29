@@ -1,9 +1,20 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .mainContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 3rem;
+  flex: 1 1 auto;
+  margin: 2rem 0;
 }
 
 .dogImage {
@@ -11,4 +22,16 @@
   pointer-events: none;
   border: 3px solid #fffffe;
   border-radius: 10px;
+}
+
+.description {
+  font-size: 1.2rem;
+  padding: 1rem;
+  max-width: 30rem;
+  flex: 1 1 auto;
+}
+
+.buttonsBar {
+  display: flex;
+  gap: 2rem;
 }

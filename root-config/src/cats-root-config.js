@@ -6,6 +6,12 @@ registerApplication({
   activeWhen: ["/"],
 });
 
+registerApplication({
+  name: "@cats/favourites",
+  app: () => System.import("@cats/favourites"),
+  activeWhen: ["/"],
+});
+
 start({
   urlRerouteOnly: true,
 });
